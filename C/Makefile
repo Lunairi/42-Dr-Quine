@@ -1,10 +1,10 @@
-NAME	= Colleen
+NAME	= Colleen Grace Sully
 CFLAGS	= -Wall -Wextra -Werror
 
 all: $(NAME)
 
 $(NAME): %: %.c
-	gcc $(CFLAGS) -o $@ $<
+	clang $(CFLAGS) -o $@ $<
 
 clean:
 	rm -f $(NAME)
