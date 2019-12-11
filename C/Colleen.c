@@ -9,12 +9,12 @@ const char* source_code[] = {
 	"	// Utility printer, code_block = stuff to be pritned inside source_code[]",
 	"	// ascii 9 = tab, 34 = quote, 44 = comma, 10 = new line",
 	"	char ascii[] = {9, 34, 44, 10};",
-	"	code_block == 1 ? write(1, &ascii[0], 1) : 0 ;",
-	"	code_block == 1 ? write(1, &ascii[1], 1) : 0 ;",
+	"	code_block == 1 ? write(1, &ascii[0], 1) : 0;",
+	"	code_block == 1 ? write(1, &ascii[1], 1) : 0;",
 	"	while (*str)",
 	"		write(1, str++, 1);",
-	"	code_block == 1 ? write(1, &ascii[1], 1) : 0 ;",
-	"	code_block == 1 ? write(1, &ascii[2], 1) : 0 ;",
+	"	code_block == 1 ? write(1, &ascii[1], 1) : 0;",
+	"	code_block == 1 ? write(1, &ascii[2], 1) : 0;",
 	"	write(1, &ascii[3], 1);",
 	"}",
 	"",
@@ -39,12 +39,12 @@ void	printline(const char *str, char code_block) {
 	// Utility printer, code_block = stuff to be pritned inside source_code[]
 	// ascii 9 = tab, 34 = quote, 44 = comma, 10 = new line
 	char ascii[] = {9, 34, 44, 10};
-	code_block == 1 ? write(1, &ascii[0], 1) : 0 ;
-	code_block == 1 ? write(1, &ascii[1], 1) : 0 ;
+	code_block == 1 ? write(1, &ascii[0], 1) : 0;
+	code_block == 1 ? write(1, &ascii[1], 1) : 0;
 	while (*str)
 		write(1, str++, 1);
-	code_block == 1 ? write(1, &ascii[1], 1) : 0 ;
-	code_block == 1 ? write(1, &ascii[2], 1) : 0 ;
+	code_block == 1 ? write(1, &ascii[1], 1) : 0;
+	code_block == 1 ? write(1, &ascii[2], 1) : 0;
 	write(1, &ascii[3], 1);
 }
 
