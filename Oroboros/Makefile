@@ -1,11 +1,16 @@
 colleen:
 	- sh test_colleen.sh
 
-all: colleen 
+grace:
+	- sh test_grace.sh
+
+all: colleen grace
 
 clean:
 	rm rb_colleen_test
 	rm py_colleen_test
+	rm Grace_kid.py
+	rm Grace_kid.rb
 
 fclean: clean
 
