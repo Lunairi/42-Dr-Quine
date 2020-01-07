@@ -41,7 +41,7 @@ The main challenge I had was with grace since Python & Ruby does not have define
 
 An oroboros is where you have 2 or more quines printing each other's sources. I chose to do Ruby & Python to experiment a bit with Oroboros. I coolest part is when you do Sully with Oroboros. They will create alternating files of each other's source. Here's what I mean:
 * Python Sully.py will create Sully_4.rb, which creates Sully_3.py, which creates Sully_2.rb, then Sully_1.py, and finally Sully_0.rb
-* Ruby Sully.py creates Sully_4.py, Sully_3.rb, Sully_2.py, Sully_1.rb, Sully_0.py
+* Ruby Sully.rb creates Sully_4.py, Sully_3.rb, Sully_2.py, Sully_1.rb, Sully_0.py
 
 
 # Trying out my Quines
