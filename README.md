@@ -23,3 +23,14 @@ There are three Quines that we need to implemented
 
 
 I chose to do C, ASM, Python and Ruby. The Python and Ruby are bonuses, and also done as a Oroboros style as well. I enjoy puzzle so this was more for fun then anything else.
+
+
+
+The main challenge I had was with grace since Python & Ruby does not have defines. Below is how I went about trying a different hacky solution (I do not recommend coding at all the way I did for these:)
+* Ruby
+	* For ruby I just chose to use lambdas to try and simulate something close to defines. Very simple, no real challenge other then having to think about something similar.
+* Python
+	* Since I decided to use lambdas in Ruby I decided to also use lambdas in Python
+	* Using lambdas in Python is very specific and is nowhere flexible like Ruby
+	* I had to come up with really whacky solution using operators to trick lambda into letting me run and process multiple methods
+	* This implementation is incredibly ugly
