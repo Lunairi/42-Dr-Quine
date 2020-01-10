@@ -16,5 +16,5 @@ _main:
 	lea rcx, [rel fmt]
 	call _printf
 	pop rbp
-	mov rax, 1
+	mov rax, 0
 	ret
